@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,21 +9,26 @@
         td {
             border: 1px solid black;
         }
+
         td {
             width: 50px;
             text-align: center;
         }
-        .border-none{
+
+        .border-none {
             border: none;
         }
-        .bg-yellow{
+
+        .bg-yellow {
             background-color: yellow;
         }
-        .text-red{
+
+        .text-red {
             color: red;
         }
     </style>
 </head>
+
 <body>
     <h1 class="head para ">Register Form</h1>
 
@@ -151,7 +157,7 @@
     </table> -->
 
 
-    <form>
+    <!-- <form>
         <label for="full-name">Full Name:</label>
         <input id="full-name" type="text" placeholder="Enter your Full Name" /> <br /><br />
 
@@ -191,8 +197,108 @@
         <button type="submit">submit</button>
 
 
-    </form>
+    </form> -->
+
+
+    <!-- <form>
+        <select name="Province" multiple>
+            <option value="Sindh">Sindh</option>
+            <option value="Punjab" selected>Punjab</option>
+            <option value="Balochistan">Balochistan</option>
+            <option value="KPK">KPK</option>
+        </select>
+
+    </form> -->
+
+
+
+    <!-- <fieldset>
+        <legend>Login</legend>
+        <form>
+            <label for="fullname">Fullname</label>
+            <input type="text" id="fullname" placeholder="enter your fullname" name="fullname" required minlength="5"
+                maxlength="10"> <br /> <br />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="enter your email" name="email" required> <br /> <br />
+
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="enter your password" name="password" required> <br />
+            <br />
+
+            <button>Login</button>
+        </form>
+    </fieldset> -->
+
+
+    <!-- Trip planing -->
+
+    <!-- 
+1. Username (Text Input): Allows the user to enter their username.
+2. Email (Email Input): Collects the user’s email address. also gender input field (radio btn)
+3. Selected City (Dropdown): Dropdown to select a travel destination (Maldives, Indonesia, Umrah, USA, Dubai).
+4. Number of Persons (Number Input): Allows the user to specify the number of people traveling.
+5. Date of Travel (Date Input): Allows the user to select their desired travel date.
+6. Special Message (Textarea): A field for the user to enter any special requests or messages.
+7. Facilities (Checkboxes): Users can select one or more options for facilities (air ticket, hotel, transportation).
+8. Submit Button: Submits the form data for processing. -->
+
+
+
+    <!-- <fieldset>
+
+
+        <legend>Customize Trip Planining</legend>
+        <form>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username"> <br /> <br />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"> <br /> <br />
+
+            <label >Gender</label> <br />
+            <input type="radio" id="male" name="gender"> 
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender"> 
+            <label for="female">Female</label><br /> <br />
+
+
+            <label for="destination">Destination</label> <br />
+            <select name="destination" id="destination">
+                <option value="Maldives">Maldives</option>
+                <option value="Indonesia">Indonesia</option>
+                <option value="Umrah">Umrah</option>
+                <option value="Dubai">Dubai</option>
+                <option value="USA">USA</option>
+            </select> <br /> <br />
+
+            <label for="person">Person</label>
+            <input type="number" id="person" name="person"><br /> <br />
+
+            <label for="date">Travel Date</label>
+            <input type="date" id="date" name="date"><br /> <br />
+
+            <label for="message">Special Message</label> <br />
+            <textarea name="message" id="message"></textarea> <br /> <br />
+
+            <label for="facilities">Select facilities</label> <br />
+
+            <input type="checkbox" id="air-ticket">
+            <label for="air-ticket">Air ticket</label> <br /> 
+            <input type="checkbox" id="transportation">
+            <label for="transportation">Tranportation</label> <br /> 
+            <input type="checkbox" id="hotel">
+            <label for="hotel">Hotel</label> <br /> 
+            <input type="checkbox" id="food">
+            <label for="food">Food</label> <br /> 
+
+            <button type="submit">Submit</button>
+        </form>
+
+    </fieldset> -->
+
 
 
 </body>
+
 </html>
