@@ -1,0 +1,59 @@
+/* universal selector */
+
+/* * {
+    color: red;
+} */
+
+
+/* type selector */
+
+/* h1,
+ul {
+    background-color: red;
+    color: white;
+} */
+
+/* id selector */
+
+/* #para {
+    color: red;
+} */
+
+
+/* class selector */
+
+/* .text-center {
+    text-align: center;
+}
+
+.bg-red {
+    background-color: red;
+} */
+
+/* child selector */
+
+/* div>ul {
+    color: red;
+} */
+
+/* #list>li {
+    color: blueviolet;
+} */
+
+
+/* adjacent selector */
+
+/* h1+p {
+    color: red;
+} */
+
+
+/* ul+p {
+    color: red;
+} */
+
+/* general sibling selector */
+
+/* ul~p {
+    color: red;
+} */
