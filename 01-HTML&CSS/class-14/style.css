@@ -1,0 +1,41 @@
+/* body {
+    color: blue;
+    text-align: center;
+    font-family: "Poppins", serif;
+}
+
+div {
+    text-align: start;
+}
+
+h1 {
+    font-family: "Playwrite PE Guides", serif;
+}
+
+* {
+    border: 1px solid red;
+
+} */
+
+/* link lagalo */
+/* font download krka @font-face use krlo */
+
+
+@font-face {
+    font-family: 'grotesk-medium';
+    src: url('./fonts/static/SpaceGrotesk-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'grotesk-bold';
+    src: url(./fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: 'grotesk-bold';
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 50px;
+}
