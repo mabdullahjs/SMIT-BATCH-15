@@ -1,0 +1,98 @@
+/* units */
+
+/* absolute units */
+
+/* px */
+/* vw */
+/* vh */
+
+
+/* relative units */
+/* % */
+/* em */
+/* rem */
+
+/* .parent {
+    border: 2px solid black;
+    width: 50%;
+    height: 50px;
+    width: 30vw;
+    width: 250px;
+
+}
+
+.children {
+    border: 2px solid red;
+    height: 50px;
+    width: 50%;
+    width: 50vw;
+    width: 550px;
+
+} */
+
+/* 1em = 16px */
+
+/* h1 = 32px */
+
+/* h1 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 2em;
+} */
+
+/* html {
+    font-size: 32px;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+.container {
+    font-size: 50px;
+}
+
+p {
+    font-size: 2rem;
+} */
+/* 
+.head-one {
+    font-size: 64px;
+}
+
+.head-two {
+    font-size: 4rem;
+} */
+
+
+/* html {
+    font-size: 62.5%;
+} */
+
+/* 
+1rem == 10px
+3 rem == 30px
+2.8rem */
+
+/* 16 == 100% */
+/* 10 == 62.5% */
+/* 100/16  */
+
+h1 {
+    text-transform: lowercase;
+    text-decoration: overline;
+}
+
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+p {
+    /* line-height: 5rem; */
+    /* letter-spacing: 4px; */
+    word-spacing: 20px;
+}
