@@ -1,0 +1,121 @@
+/* #head-id {
+    text-align: start;
+}
+
+.head {
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    text-align: end;
+}
+
+.text-black {
+    color: black;
+} */
+
+/* 
+* {
+    color: red;
+}
+a {
+    color: black;
+} */
+
+/* Precedence */
+/* inheritance */
+/* units */
+
+
+/* universal selector vs body  */
+
+
+
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+} */
+
+/* h1 {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px 10px 5px 3px;
+    width: 500px;
+} */
+
+/* p {
+    margin: 20px;
+    padding: 50px;
+    border: 3px solid black;
+    border-radius: 10px;
+    height: 100px;
+    text-align: center;
+    overflow: scroll;
+
+} */
+
+
+/* display */
+/* block */
+/* inline width height margin top margin bottom kaam nahi kraiga*/
+/* inline-block */
+/* none */
+
+
+/* h1 {
+    margin: 20px;
+    display: inline;
+    padding: 30px;
+    width: 50px;
+    height: 500px;
+} */
+
+/* a {
+    display: block;
+}
+
+li {
+    display: inline;
+}
+
+ul {
+    text-align: end;
+} */
+/* 
+img {
+    width: 100px;
+    margin: 40px;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    text-align: end;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.8rem;
+}
+
+li {
+    display: inline-block;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+li:hover {
+    color: #b6f3ff;
+}
