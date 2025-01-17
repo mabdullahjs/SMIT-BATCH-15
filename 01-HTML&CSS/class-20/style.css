@@ -1,17 +1,22 @@
 .container {
-    border: 2px solid black ;
+    border: 2px solid black;
     height: 400px;
     margin: 20px;
-    /* padding: 20px; */
+    padding: 20px;
 
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* flex-direction: column-reverse;
     justify-content: space-around;
     flex-wrap: wrap;
-    /* gap: 20px; */
-    align-items: end;
-    /* row-gap: 0px;
-    column-gap: 20px; */
+    gap: 20px;
+    align-items: center;
+    align-content: center;
+    row-gap: 0px;
+    column-gap: 20px;
+    flex-flow: row wrap-reverse; */
 
 }
 
@@ -20,5 +25,57 @@
     border: 2px solid gray;
     color: white;
     font-size: 1.5rem;
+}
+
+#box-1 {
+    flex-grow: 4;
+}
+
+#box-2 {
+
+    flex-grow: 2;
+}
+
+#box-3 {
+    flex-grow: 1;
+}
+
+
+/* * {
+    border: 1px solid red;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
 
 }
+
+.children {
+    flex: 1;
+}
+
+#box-1 {
+    order: 4;
+    flex-grow: 2;
+    flex: 3
+}
+
+#box-2 {
+    order: 3;
+    flex: 1
+}
+
+#box-3 {
+    order: 2;
+    flex: 1
+}
+
+#box-4 {
+    order: 1;
+    flex: 1
+} */

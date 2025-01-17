@@ -1,0 +1,35 @@
+.text-center {
+    text-align: center;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-around {
+    justify-content: around;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap
+}
