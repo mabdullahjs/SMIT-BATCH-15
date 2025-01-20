@@ -1,5 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --red: #ed1c24;
+    --white: #ffffff;
+    --black: #000000;
+    --green: #28a745;
+    --grey: #0f0f0f;
+}
+/*
+red
+white
+black
+green
+#0f0f0f
+
+*/
+
+
+
+
 .text-center {
     text-align: center;
+}
+
+.text-none {
+    text-decoration: none;
 }
 
 .text-white {
@@ -7,8 +45,37 @@
 }
 
 .bg-red {
-    background-color: red;
+    background-color: var(--red);
 }
+.bg-white {
+    background-color: var(--white);
+}
+.bg-black {
+    background-color: var(--black);
+}
+.bg-green {
+    background-color: var(--green);
+}
+.bg-grey {
+    background-color: var(--grey);
+}
+.text-red {
+    color: var(--red);
+}
+.text-white {
+    color: var(--white);
+}
+.text-black {
+    color: var(--black);
+}
+.text-green {
+    color: var(--green);
+}
+.text-grey {
+    color: var(--grey);
+}
+
+/* flexbox classes */
 
 .d-flex {
     display: flex;
@@ -19,11 +86,14 @@
 }
 
 .justify-around {
-    justify-content: around;
+    justify-content: space-around;
 }
 
 .justify-evenly {
     justify-content: space-evenly;
+}
+.justify-between {
+    justify-content: space-between;
 }
 
 .item-center {
@@ -33,3 +103,53 @@
 .flex-wrap {
     flex-wrap: wrap
 }
+
+.gap-1{
+    gap: 5px;
+}
+.gap-2{
+    gap: 10px;
+}
+.gap-3{
+    gap: 15px;
+}
+.gap-4{
+    gap: 20px;
+}
+.gap-5{
+    gap: 25px;
+}
+
+.flex-column{
+    flex-direction: column;
+} 
+
+.flex-row{
+    flex-direction: row;
+}
+
+
+/* margin classes */
+
+m-2{
+    margin: 10px;
+}
+m-3{
+    margin: 15px;
+}
+m-4{
+    margin: 20px;
+}
+m-5{
+    margin: 25px;
+}
+
+.border{
+    border: 1px solid var(--white);
+}
+
+.rounded{
+    border-radius: 30px;
+    cursor: pointer;
+}
+
