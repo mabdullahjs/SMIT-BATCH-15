@@ -1,0 +1,51 @@
+/* .container {
+    margin: 20px;
+    border: 2px solid black;
+    height: 400px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.children {
+    background-color: red;
+    padding: 30px;
+    color: white;
+    border: 1px solid black;
+} */
+
+.parent {
+    display: flex;
+    /* gap: 20px; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.children {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+
+p {
+    text-align: center;
+}
+
+@font-face {
+    font-family: futurak;
+    src: url('/fonts/futurak.ttf');
+}
+
+#head {
+    font-family: futurak;
+    font-weight: 200;
+}
