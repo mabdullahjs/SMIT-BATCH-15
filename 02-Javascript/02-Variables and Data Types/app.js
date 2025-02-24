@@ -24,7 +24,6 @@
 
 
 
-
 // var username = "abdullah";
 // console.log('username')
 
@@ -111,8 +110,12 @@
 // console.log(username);
 
 
+// var username;
+// username = "abdullah";
 
-
+// var username = "abdullah"; // initiaze 
+// username = "usman"; // reassign
+// var username = "Ammar"; // redeclare
 
 
 
@@ -131,7 +134,19 @@
 // percentage calculator
 
 
+// var totalMarks = 400;
 
+// var username = prompt("enter your username");
+// var engMarks = +prompt("enter your english marks");
+// var urduMarks = +prompt("enter your urdu marks");
+// var mathsMarks = +prompt("enter your maths marks");
+// var comMarks = +prompt("enter your computer marks");
+
+
+// var studentObtainedMarks = engMarks + urduMarks + mathsMarks + comMarks
+// var percentage = studentObtainedMarks / totalMarks * 100
+
+// console.log("username is " + username + " and result is " + percentage + "%");
 
 
 
