@@ -101,18 +101,18 @@
 
 
 
-var num1 = +prompt('enter num1')
-var num2 = +prompt('enter num2')
-var operator = prompt('enter + - * / %');
+// var num1 = +prompt('enter num1')
+// var num2 = +prompt('enter num2')
+// var operator = prompt('enter + - * / %');
 
-if(operator === "+"){
-    console.log("addition" ,num1 + num2);
-} else if(operator === '-'){
-    console.log("subtraction" , num1 - num2);
+// if(operator === "+"){
+//     console.log("addition" ,num1 + num2);
+// } else if(operator === '-'){
+//     console.log("subtraction" , num1 - num2);
     
-} else {
-    console.log('invalid operator');
-}
+// } else {
+//     console.log('invalid operator');
+// }
 
 
 
