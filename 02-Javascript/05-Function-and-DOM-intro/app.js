@@ -113,15 +113,97 @@
 
 
 
-var num = 0;
+// var num = 0;
 
-if (num < 0) {
-    console.log('negative number');
+// if (num < 0) {
+//     console.log('negative number');
 
-} else if (num === 0) {
-    console.log('Zero');
+// } else if (num === 0) {
+//     console.log('Zero');
 
-} else {
-    console.log('positive number');
+// } else {
+//     console.log('positive number');
 
+// }
+
+
+
+
+
+// function checkResult(username , marks){
+//     if (marks < 50) {
+//         console.log(username + ' tum rikshaw chalao');
+//     } else {
+//         console.log(username + ' tum mehran chalao');
+//     }
+// }
+
+// var getUserMarks = +prompt('enter your marks')
+// checkResult('abdullah' , getUserMarks)
+
+
+
+// case sensative
+
+// console.log('Abc' === 'abc');
+
+
+
+
+
+// return keyword
+
+// var username = prompt('enter your name');
+// console.log(username);
+
+
+// function hello(){
+//     console.log('hello world');    
+//     return 'wapsi krdia' 
+// }
+
+// console.log(hello());
+
+// hello()
+
+
+// var greeting = hello();
+// console.log(greeting);
+
+
+
+
+
+// function sum(num1 , num2){
+//     return num1 + num2
+// }
+
+// var total = sum(20 , 40);
+// console.log(total);
+
+
+
+// function greet(username , age){
+//     console.log('hello world');
+//     return username + " and with age " + age
+// }
+// var userFullName = prompt('enter your name')
+// var userAge = +prompt('enter your age')
+
+// var userGreetings = greet(userFullName , userAge);
+// console.log(userGreetings);
+
+
+
+
+function greetUser(username){
+    console.log('hello ' + username);
 }
+
+function secondFunc(){
+    console.log('second function');
+    greetUser('usman')
+    
+} 
+
+secondFunc()
