@@ -88,7 +88,35 @@
 //indexof
 
 
-var fruits = ['watermelon', 'banana', 'apple', 'grapes', 'orange', 'mango', 'strawberry', 'pineapple', 'kiwi', 'cherry']
+// var fruits = ['watermelon', 'banana', 'apple', 'grapes', 'orange', 'mango', 'strawberry', 'pineapple', 'kiwi', 'cherry']
+
+// fruits.splice(1, 2);
+// fruits.splice(6, 2)
+// fruits.splice(9, 1, 'Pomegranate');
+// fruits.splice(5, 3, 'updated')
+// console.log(fruits);
+
+
+
+// var newArr = fruits.slice(2, 6)
+// console.log(newArr);
+
+
+// var fullName = ['Muhammad', 'Abdullah', 'khan'];
+// console.log(fullName.join('abc'));
+
+// var username = "Muhammad Abdullah khan"
+// console.log(username.split(' '));
+
+
+
+
+
+// 1 = 'banana', 'apple'
+// 2 = 'strawberry', 'pineapple'
+// 3 = 'cherry' ==> Pomegranate
+// 4 = 'mango', 'strawberry', 'pineapple' ==> updated
+
 
 // fruits.push('abc', 'def')r
 // fruits.splice(5, 3)
@@ -102,5 +130,14 @@ var fruits = ['watermelon', 'banana', 'apple', 'grapes', 'orange', 'mango', 'str
 // fruits.shift()
 
 
-console.log(fruits);
 
+// var body = document.querySelector('body');
+
+
+// function changeColor(color) {
+//     console.log(color);
+//     body.style.backgroundColor = color
+// }
+
+// var arr = [[1, 2, 3, 4, [5, 6, 7]]]
+// console.log(arr[0][4]);
