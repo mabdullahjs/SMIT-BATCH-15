@@ -141,3 +141,25 @@
 
 // var arr = [[1, 2, 3, 4, [5, 6, 7]]]
 // console.log(arr[0][4]);
+
+
+// concat
+
+// var arr1 = [1, 2, 3, 4, 5]
+// var arr2 = [6, 7, 8, 9, 10]
+
+// console.log(arr2.concat(arr1));
+
+
+
+var numArr = [4, 16, 17, 4, 2, 6, 0, 8, 2]
+// console.log(numArr.sort());
+console.log(numArr.indexOf(123));
+
+
+
+
+
+// var username = ['Muhammad', 'Abdullah', 'Khan'];
+// console.log(username.reverse());
+
