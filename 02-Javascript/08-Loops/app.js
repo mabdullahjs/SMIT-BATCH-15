@@ -175,7 +175,7 @@
 //     }
 
 //     console.log('-------------');
-    
+
 
 // }
 
@@ -198,27 +198,158 @@
 // for(var i = 0; i < fruits.length; i++){
 //     console.log(`${fruits[i]} index ${i}`);
 //     div.innerHTML += `<p>${fruits[i]}</p>`
-    
+
 // }
 
 
 
 
 
-const names = [
-    "Alice", "Bob", "Charlie", "David", "Eva", "Frank", "Grace", "Hannah", "Ivy", "Jack",
-    "Kathy", "Liam", "Mia", "Noah", "Olivia", "Paul", "Quincy", "Rachel", "Sam", "Tina",
-    "Ursula", "Victor", "Wendy", "Xander", "Yara", "Zach", "Amelia", "Benjamin", "Clara", "Daniel", 
-    "Ella"
-  ];
-  
-var ol = document.querySelector('ol');
+// const names = [
+//     "Alice", "Bob", "Charlie", "David", "Eva", "Frank", "Grace", "Hannah", "Ivy", "Jack",
+//     "Kathy", "Liam", "Mia", "Noah", "Olivia", "Paul", "Quincy", "Rachel", "Sam", "Tina",
+//     "Ursula", "Victor", "Wendy", "Xander", "Yara", "Zach", "Amelia", "Benjamin", "Clara", "Daniel", 
+//     "Ella"];
 
-for(var i = 0; i < names.length; i++){
-    console.log(names[i]);
-    ol.innerHTML += `<li>${names[i]}</li>`
-    
+// var ol = document.querySelector('ol');
+
+// for(var i = 0; i < names.length; i++){
+//     console.log(names[i]);
+//     ol.innerHTML += `<li>${names[i]}</li>`
+
+// }
+
+
+
+
+// loop
+// function
+// DOM manipulation 
+
+
+
+
+
+
+
+
+
+
+
+// function greetUser() {
+//   console.log('hello world 1');
+//   console.log('hello world 2');
+//   console.log('hello world 3');
+//   console.log('hello world 4');
+//   console.log('---------');
+// }
+
+// greetUser()
+
+
+
+// argument
+// parameter
+// return
+
+
+
+// function greetuser(username , age){
+//   console.log(`your name is ${username} and your age is ${age}`);
+  
+// }
+
+// greetuser('mabdullah' , 21)
+// greetuser('Usman' , 18)
+
+
+
+
+
+
+
+
+
+
+// function sum(num1 , num2){
+//   console.log(num1 + num2);
+//   return num1 + num2
+// }
+
+// var total = sum(20 , 30)
+// console.log(total);
+
+
+
+// var username = prompt('enter your username')
+// console.log(username);
+
+
+
+
+
+// function userDetail(fullName , email , age){
+//   return `your name is ${fullName} and your email is ${email} with age ${age}`
+// }
+
+// var user = userDetail('Muhammad Abdullah' , 'mabdullah2037@gmail.com' , 21);
+
+// console.log(user);
+
+// var head = document.querySelector('#head');
+// head.innerHTML = "change through javascript"
+// console.log(head.innerHTML);
+
+
+
+// var ol = document.querySelector('#ordered-list');
+
+
+// function clearList(){
+//   ol.innerHTML = `<li>Sab laa aaya</li>`
+//   console.log('clear list');
+  
+// }
+
+// input banana haa. jo value user input ma daiga wohi value ol ka undar show krwni ha.
+
+
+
+
+// var input = document.querySelector('#input');
+// var ol = document.querySelector('#ordered-list');
+
+// function addTask(){
+//   console.log(input.value);
+//   ol.innerHTML += `<li>${input.value}</li>`
+//   input.value = ""
+// }
+
+
+// function clearList(){
+//   ol.innerHTML = ""
+// }
+
+
+
+
+// initialization , condition , increment
+
+
+for(var i = 0; i < 10; i++){
+  console.log(i)
 }
+
+ 
+
+
+
+
+
+
+
+
+
 
 
 
