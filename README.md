@@ -2,9 +2,9 @@
 
 ## Course Outline
 
-- [ ] HTML
-- [ ] CSS
-- [ ] bootstrap/tailwind
+- [x] HTML
+- [x] CSS
+- [x] bootstrap/tailwind
 - [ ] JAVASCRIPT
 - [ ] TYPESCRIPT
 - [ ] GITHUB/GIT
