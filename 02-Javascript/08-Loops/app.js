@@ -144,7 +144,7 @@
 
 // // (initialization , condition , increment)
 // for(var i = 1; i <= 10; i++){
-//     console.log(`${num} * ${i} = ${num * i}`);  
+//     console.log(`${num} * ${i} = ${num * i}`);
 // }
 
 
@@ -208,7 +208,7 @@
 // const names = [
 //     "Alice", "Bob", "Charlie", "David", "Eva", "Frank", "Grace", "Hannah", "Ivy", "Jack",
 //     "Kathy", "Liam", "Mia", "Noah", "Olivia", "Paul", "Quincy", "Rachel", "Sam", "Tina",
-//     "Ursula", "Victor", "Wendy", "Xander", "Yara", "Zach", "Amelia", "Benjamin", "Clara", "Daniel", 
+//     "Ursula", "Victor", "Wendy", "Xander", "Yara", "Zach", "Amelia", "Benjamin", "Clara", "Daniel",
 //     "Ella"];
 
 // var ol = document.querySelector('ol');
@@ -224,7 +224,7 @@
 
 // loop
 // function
-// DOM manipulation 
+// DOM manipulation
 
 
 
@@ -256,7 +256,7 @@
 
 // function greetuser(username , age){
 //   console.log(`your name is ${username} and your age is ${age}`);
-  
+
 // }
 
 // greetuser('mabdullah' , 21)
@@ -308,7 +308,7 @@
 // function clearList(){
 //   ol.innerHTML = `<li>Sab laa aaya</li>`
 //   console.log('clear list');
-  
+
 // }
 
 // input banana haa. jo value user input ma daiga wohi value ol ka undar show krwni ha.
@@ -336,14 +336,49 @@
 // initialization , condition , increment
 
 
-for(var i = 0; i < 10; i++){
-  console.log(i)
-}
-
- 
+// for(var i = 0; i < 10; i++){
+//   console.log(i)
+// }
 
 
 
+// break
+
+
+// for (var i = 0; i < 10; i++) {
+//   if (i == 4) {
+//     break
+//   }
+//   console.log(i)
+// }
+
+
+
+
+
+// const names = [
+//   "Alice", "Bob", "Charlie", "David", "Eva", "Frank", "Grace", "Hannah", "Ivy", "Jack",
+//   "Kathy", "Liam", "Mia", "Noah", "Olivia", "Paul", "Quincy", "Rachel", "Sam", "Tina",
+//   "Ursula", "Victor", "Wendy", "Xander", "Yara", "Zach", "Amelia", "Benjamin", "Clara", "Daniel",
+//   "Ella"];
+
+
+// var ol = document.querySelector('#ordered-list');
+
+// for (var i = 0; i < names.length; i++) {
+//   console.log(names[i])
+//   ol.innerHTML += `<li>${names[i]}</li > `
+// }
+
+
+
+
+
+// var fruits = ['watermelon', 'banana', 'apple', 'grapes', 'orange', 'mango', 'strawberry', 'pineapple', 'kiwi', 'cherry']
+
+
+// fruits.splice(5, 2, 'updated', 'second updated')
+// console.log(fruits);
 
 
 
@@ -353,4 +388,23 @@ for(var i = 0; i < 10; i++){
 
 
 
+// while loop
 
+
+// var i = 11;
+
+// while (i < 10) {
+//   console.log(i);
+//   i++
+// }
+
+
+
+// do while loop
+
+// var i = 11;
+// do {
+//   console.log(i);
+//   i++
+
+// } while (i < 10);
